@@ -16,27 +16,27 @@
 <body>
     <nav>
 
-    <div class="logo">
-        TS
-    </div>
+    <div class="logo">TS</div>
 
     <ul>
 
-        <li><a href="#">Home</a></li>
+        <li><a href="#home">Home</a></li>
 
-        <li><a href="#">About</a></li>
+        <li><a href="#about">About</a></li>
 
-        <li><a href="#">Skills</a></li>
+        <li><a href="#skills">Skills</a></li>
 
-        <li><a href="#">Projects</a></li>
+        <li><a href="#projects">Projects</a></li>
 
-        <li><a href="#">Contact</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+
+        <li><a href="#contact">Contact</a></li>
 
     </ul>
 
 </nav>
 
-<section class="hero">
+<section id="home" class="hero">
 
     <div class="hero-content">
 
@@ -50,7 +50,11 @@
             Building scalable cloud infrastructure through hands-on DevOps projects.
         </p>
 
-        <button>View Projects</button>
+        <a href="#projects">
+
+<button>View Projects</button>
+
+</a>
 
     </div>
 
@@ -84,6 +88,131 @@
     </div>
 
 </section>
+<section id="skills" class="skills">
+
+    <h2>Technical Skills</h2>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">AWS</div>
+        <div class="skill-card">Linux</div>
+        <div class="skill-card">Docker</div>
+        <div class="skill-card">Kubernetes</div>
+        <div class="skill-card">Terraform</div>
+        <div class="skill-card">Jenkins</div>
+        <div class="skill-card">Git & GitHub</div>
+        <div class="skill-card">Prometheus</div>
+        <div class="skill-card">Grafana</div>
+        <div class="skill-card">Bash</div>
+
+    </div>
+
+</section>
+<section id="projects" class="projects">
+
+    <h2>Featured Projects</h2>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+
+            <h3>☁️ AWS Three-Tier Architecture</h3>
+
+            <p>
+                Designed and deployed a production-style three-tier AWS infrastructure featuring High Availability, Auto Scaling, Application Load Balancer, private RDS, IAM security, and CloudWatch monitoring.
+            </p>
+
+            <h4>Tech Stack</h4>
+
+            <p>AWS • EC2 • VPC • ALB • ASG • RDS • IAM • CloudWatch</p>
+
+        </div>
+
+        <div class="project-card">
+
+            <h3>🐧 Linux Automation Library</h3>
+
+            <p>
+                Developed production-style Bash automation scripts for system health monitoring, Amazon S3 backups, Linux user provisioning, and scheduled task automation using Cron.
+            </p>
+
+            <h4>Tech Stack</h4>
+
+            <p>Linux • Bash • Cron • AWS CLI • Amazon S3</p>
+
+        </div>
+
+        <div class="project-card">
+
+            <h3>🔄 CI/CD Pipeline</h3>
+
+            <p>
+                Built a fully automated CI/CD pipeline using Jenkins, Docker, GitHub Webhooks, AWS ECR, container validation, image publishing, and deployment automation.
+            </p>
+
+            <h4>Tech Stack</h4>
+
+            <p>Jenkins • Docker • GitHub • AWS ECR • Nginx</p>
+
+        </div>
+
+        <div class="project-card">
+
+            <h3>🚀 TravelBookStall DevOps Platform</h3>
+
+            <p>
+                Built an end-to-end DevOps platform integrating Infrastructure as Code, Configuration Management, CI/CD, Kubernetes orchestration, monitoring, and centralized logging for a Spring Boot application.
+            </p>
+
+            <h4>Tech Stack</h4>
+
+            <p>Terraform • Ansible • Jenkins • Docker • Kubernetes • Prometheus • Grafana • Loki</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="certifications" class="certifications">
+
+<h2>Certifications</h2>
+
+<div class="skills-grid">
+
+<div class="skill-card">AWS Cloud Practitioner (In Progress)</div>
+
+<div class="skill-card">Docker Basics Assessment</div>
+
+<div class="skill-card">LinkedIn Recruiter & Talent Insights</div>
+
+</div>
+
+</section>
+<section id="contact" class="contact">
+
+<h2>Let's Connect</h2>
+
+<p>Email: tulasisagar.devops@gmail.com</p>
+
+<p>LinkedIn: linkedin.com/in/tulasi-sagar</p>
+
+<p>GitHub: github.com/tulasisagar</p>
+
+</section>
+<footer>
+
+<p>
+
+© 2026 Tulasi Muntimadugu
+
+<br><br>
+
+Built with ❤️ using HTML, CSS & JavaScript
+
+</p>
+
+</footer>
 <script src="script.js"></script>
 
 </body>
