@@ -95,3 +95,60 @@ transform:scale(1.05);
 background:#2ea043;
 
 }
+nav{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:25px 8%;
+
+position:fixed;
+
+width:100%;
+
+top:0;
+
+background:#0d1117;
+
+}
+
+.logo{
+
+font-size:28px;
+
+font-weight:bold;
+
+color:#58a6ff;
+
+}
+
+nav ul{
+
+display:flex;
+
+list-style:none;
+
+gap:35px;
+
+}
+
+nav a{
+
+text-decoration:none;
+
+color:white;
+
+font-size:18px;
+
+transition:.3s;
+
+}
+
+nav a:hover{
+
+color:#58a6ff;
+
+}
