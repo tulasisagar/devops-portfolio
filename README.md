@@ -81,24 +81,11 @@ devops-portfolio/
 
 ## 📸 Portfolio Preview
 
-> ![Portfolio Preview](images/portfolio-preview.png)
-
-Example:
-
-```
-images/portfolio-preview.png
-```
-
-Then display it like this:
-
-```markdown
 ![Portfolio Preview](images/portfolio-preview.png)
-```
 
 ---
 
-## 💼 Featured DevOps Projects
-
+## 💼 Featured DevOps Project
 This portfolio highlights my hands-on DevOps projects, including:
 
 - ☁️ AWS Three-Tier Architecture
@@ -127,30 +114,6 @@ Each project includes:
 ## 📄 Resume
 
 My latest DevOps resume can be downloaded directly from the portfolio website.
-
----
-
-## 🖥️ Run Locally
-
-Clone the repository
-
-```bash
-git clone https://github.com/tulasisagar/devops-portfolio.git
-```
-
-Move into the project directory
-
-```bash
-cd devops-portfolio
-```
-
-Open the project
-
-```text
-Open index.html in your browser
-```
-
-Or use VS Code Live Server.
 
 ---
 
