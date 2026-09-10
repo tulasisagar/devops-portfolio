@@ -107,7 +107,6 @@ Each project includes:
 
 - ✅ Docker Basics Assessment
 - ⏳ AWS Certified Cloud Practitioner (In Progress)
-- ✅ LinkedIn Recruiter & Talent Insights
 
 ---
 
